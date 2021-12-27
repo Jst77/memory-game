@@ -1,0 +1,33 @@
+.game { 
+    text-align: center;
+}
+
+.cell {
+    height: 100px;
+    width: 100px;
+    background-color: #999;
+    display: grid;
+    margin: 20px;   
+    
+    filter: brightness(0%);
+  }
+
+.start {
+    text-align: center;
+    border: 5px solid ;
+    margin:10px;
+}
+
+.grid-container {
+    grid-template-rows: 50px 50px 50px 50px ;
+    grid-template-columns: 50px 50px 50px 50px;
+    display:grid;
+    margin: 50px;
+    padding:35px;
+    grid-gap: 80px;
+    justify-content: center;
+}
+
+body { 
+    background-color: aliceblue;
+}
